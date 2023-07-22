@@ -1,0 +1,137 @@
+
+body {
+    background-color: rgb(46, 80, 56);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: white;
+}
+
+#title {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: -0.5vh;
+}
+#description {
+    text-align: center;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.inputs {
+    text-align: center;
+}
+#number, #name, #email{
+    width: 30em;
+    height: 2.5em;
+    border-radius: 0.3em;
+    border: 3px solid #ccc;
+    transition: border-color 0.8s;
+    outline: none;
+}
+#email:focus, #number:focus, #name:focus {
+    border: 3px solid rgba(81, 216, 121, 0.8);
+}
+#submit {
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    width: 30em;
+    height: 2.5em;
+    border: 0 solid rgb(73, 141, 96);
+    background-color:rgb(73, 141, 96);
+    color: white;
+    border-radius: 0.3em;
+    outline: none;
+    transition: background-color 0.3s, color 0.3s; /* Add transition for smooth change */
+}
+
+#submit:hover {
+  background-color: rgba(81, 216, 121, 0.8); /* Change background color on hover */
+  color: #fff; /* Change text color on hover */
+}
+#comments {
+    width: 30em;
+    height: 8em;
+    resize: none;
+    border-radius: 0.3em;
+    border: 3px solid #ccc;
+    transition: border-color 0.8s;
+    outline: none;
+}
+#comments:focus {
+    border: 3px solid rgba(81, 216, 121, 0.8);
+}
+#dropdown {
+    width: 31.8em;
+    height: 3.0em;
+    border-radius: 0.3em;
+    border: 3px solid #ccc;
+    transition: border-color 0.8s;
+    outline: none;
+    padding-left: 15px;
+}
+#dropdown:focus {
+    border: 3px solid rgba(81, 216, 121, 0.8);
+}
+#name-label {
+    display:flex;
+    flex-direction:column;
+    
+}
+#survey-form #name-label, #email-label, #number-label {
+    display:flex;
+    flex-direction:column;
+    text-align: center;
+    margin-right: 23em;
+    margin-bottom: -1em;
+}
+
+#drop-label {
+    display:flex;
+    flex-direction:column;
+    text-align: center;
+    margin-right: 6.5em;
+    margin-bottom: -1em;
+}
+#radio-label, #check-label {
+    display:flex;
+    flex-direction:column;
+    text-align: center;
+    margin-right: 10em;
+    margin-bottom: -1em;
+    padding-bottom: 5px;
+    padding-top: 25px;
+}
+#comments-label {
+    display:flex;
+    flex-direction:column;
+    text-align: center;
+    margin-right: 12em;
+    margin-bottom: -1em;
+    padding-bottom: 5px;
+    padding-top: 25px;
+}
+input[type="number"], input[type="text"], input[type="email"] {
+    display: block;
+    margin: auto;
+    padding-left: 15px;
+    
+}
+textarea {
+    display: block;
+    margin: auto;
+    padding-left: 15px;
+}
+
+input[type="radio"], input[type="checkbox"] {  
+    width: auto;
+    text-align: center;
+    margin: auto;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+#radio, #check {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 18vh;
+    height: 8vh;
+}
