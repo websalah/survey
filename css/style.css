@@ -134,3 +134,29 @@ input[type="radio"], input[type="checkbox"] {
     margin-right: 18vh;
     height: 8vh;
 }
+
+@media screen and (max-width: 480px) {
+            h1 {
+                font-size: 20px;
+            }
+            body {
+                font-size: 14px;
+            }
+			#dropdown {
+				color: grey;
+			}
+			input[type="radio"], input[type="checkbox"] {  
+                text-align: center;
+                margin: auto;
+                width: 15em;
+                margin-right: 2px;
+                margin-left: 2px;
+            }
+           #radio, #check {
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               margin-right: 18vh;
+               height: 8vh;
+           }
+}
